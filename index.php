@@ -4,6 +4,6 @@
         <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
     </head>
     <body class="black-background">
-        <h1 class="green-text">Test = <?php echo 10 * 4 ?></h1>
+        <h1 class="green-text">Best Test = <?php echo 10 * 4 ?></h1>
     </body>
 </html>
