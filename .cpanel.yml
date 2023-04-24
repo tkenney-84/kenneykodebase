@@ -1,0 +1,9 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/example/public_html/
+    - /bin/cp .cpanel.yml $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp -R media $DEPLOYPATH
+    - /bin/cp -R pages $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
