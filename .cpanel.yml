@@ -2,7 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=../public_html/
-    - /bin/cp .cpanel.yml $DEPLOYPATH
     - /bin/cp index.php $DEPLOYPATH
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp -R media $DEPLOYPATH
