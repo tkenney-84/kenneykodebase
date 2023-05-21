@@ -1,1 +1,1 @@
-<p class="green-text">Testing Text</p>
+<p class="green-text">Auto-Push Test</p>
