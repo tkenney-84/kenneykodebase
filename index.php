@@ -5,6 +5,7 @@
     </head>
     <body class="black-background">
         <h1 class="green-text">Bad Test = <?php echo 10 * 4 / 10 ?></h1>
-        <?php include('pages/placeholder.html') ?>
+        <?php include('./pages/placeholder.php') ?>
+        <img src="./media/warhammer_40k-6-1391649833.jpg"/>
     </body>
 </html>
